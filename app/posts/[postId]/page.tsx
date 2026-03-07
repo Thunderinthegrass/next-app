@@ -11,8 +11,6 @@ const Post = async ({params} : {params: Promise<{postId: string}>}) => {
       <p>{post.body}</p>
       <p>{post.body}</p>
       <p>{post.body}</p>
-      {/*<p>{post.body}</p>*/}
-      {/*<p>{post.body}</p>*/}
       <p>{post.body}</p>
       <p>{post.body}</p>
     </div>
