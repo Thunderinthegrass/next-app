@@ -8,6 +8,7 @@ const Post = async ({params} : {params: Promise<{postId: string}>}) => {
   return (
     <div>
       <h1>{post.title}</h1>
+      <h2>Это подзаголовок</h2>
       <p>{post.body}</p>
     </div>
   );
