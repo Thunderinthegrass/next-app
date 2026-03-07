@@ -9,6 +9,10 @@ const Post = async ({params} : {params: Promise<{postId: string}>}) => {
     <div>
       <h1>{post.title} second</h1>
       <p>{post.body}</p>
+      <p>{post.body}</p>
+      <p>{post.body}</p>
+      <p>{post.body}</p>
+      <p>{post.body}</p>
     </div>
   );
 };
