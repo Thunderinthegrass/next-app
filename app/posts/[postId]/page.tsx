@@ -10,7 +10,7 @@ const Post = async ({params} : {params: Promise<{postId: string}>}) => {
       <h1>{post.title} second</h1>
       <p>{post.body}</p>
       <p>{post.body}</p>
-      <span>Подсократил посты</span>
+      <span>подсократил посты</span>
     </div>
   );
 };
