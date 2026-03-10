@@ -6,6 +6,7 @@ const ProductDetails = async ({params}: {params: Promise<{productId: string}>}) 
     <div>
       <div className="flex items-center">
         <h1>Описание продукта {productId}</h1>
+
       </div>
     </div>
   );
