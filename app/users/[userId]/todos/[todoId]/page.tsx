@@ -50,6 +50,7 @@ const TodoItem = async ({params} : {params: Promise<{userId: string, todoId: str
       <p>Статус: {todo.completed ? 'Выполнено' : 'В процессе'}</p>
       <p>ID пользователя: {todo.userId}</p>
       <Link href={`/users/${userId}/todos`}>Назад к списку дел</Link>
+      
     </div>
   )
 }
