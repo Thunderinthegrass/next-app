@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import {useState} from "react";
 import Link from "next/link";
 
@@ -14,6 +14,7 @@ export default function Home() {
         <Link href='/dashboard'>Панель управления</Link>
         <Link href='/products'>Продукты</Link>
         <Link href='/posts'>Посты</Link>
+        <Link href='/users'>Пользователи</Link>
       </div>
       <button onClick={() => setCounter(prev => prev + 1)}>Прибавить</button>
       <button onClick={() => setCounter(prev => prev - 1)}>Убавить</button>
